@@ -1,23 +1,21 @@
 # Robotized_Bookcase
 
 
-1. 
+1. 모터 처음 작동시킬 때
 
-모터 처음 작동시킬 때 
 높은 전압을 요구하므로 마이크로5핀 외에 (리눅스 기준 /dev/ttyACM0 경로) 모터 전원선 혹은 배터리를 연결해야 합니다. 
 
 
-2. 
+2. 모터 번호 설정 
 
-모터 번호 설정 
 처음 모터를 구매하면 id값이 1로 존재하므로 openCR 보드에서 id를 scan해준 후 id_change 예제로 변환해야 합니다. 
 아두이노-예제-openCR-Dynamixel Workbench 경로에서 확인하실 수 있습니다. 
 
 
-3. 
+3. 처음 노트북에 openCR 보드를 세팅
 
-처음 openCR 보드를 세팅하려면 아두이노-환경설정 에서 
-https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json 이걸 추가해줍니다. 
+아두이노-환경설정 에서 
+https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json 복사 붙여넣기로 추가해줍니다. 
 그 다음 board manager에서 openCR 다운 받아주고, Library Manager에서 dynamixel 관련 라이브러리 다운 받아주어야 합니다. 
 
 
@@ -25,7 +23,7 @@ https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_relea
 
 https://emanual.robotis.com/docs/en/software/arduino_ide/ 에서 찾아보면 됩니다.
 포트 인식이 안될 경우 sudo chmod 666 /dev/ttyACM0로 권한 부여가 안된 상태거나 
-sudo usermod -a -G dialout $USER로 로그아웃을 해줘야 합니다. 
+sudo usermod -a -G dialout $USER 후 다시 해주면 해결 됩니다. 
 소프트웨어 문제가 아니라면 하드웨어를 확인해보셔야 합니다.  
 
 
