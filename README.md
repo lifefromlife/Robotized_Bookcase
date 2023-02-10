@@ -35,7 +35,7 @@ sudo usermod -a -G dialout $USER
 소프트웨어 문제가 아니라면 하드웨어를 확인해보셔야 합니다.  
 
 
-5. 코드 
+### 5. 코드 
 
 다이나믹셀 baudrate는 57600으로 고정. openCR workbench 참고 
 (https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)
