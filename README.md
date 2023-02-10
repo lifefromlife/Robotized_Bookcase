@@ -39,7 +39,7 @@ sudo usermod -a -G dialout $USER
 
 
 ### 5. 코드 
-
+<img width="80%" src="https://user-images.githubusercontent.com/105138423/218001887-51d7dea0-ffe2-4a2e-a711-54ab863b6d52.PNG"/>
 다이나믹셀 baudrate는 57600으로 고정. openCR workbench 참고 
 (https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)
 ```
