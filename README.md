@@ -1,3 +1,6 @@
+
+<img width="80%" src="https://user-images.githubusercontent.com/105138423/218000713-29d18508-56b7-44db-90d1-57a6d339cee3.jpg"/>
+
 # Robotized_Bookcase
 
 
@@ -79,7 +82,7 @@ dxl_wb.getPresentPositionData(motor[모터번호], &presentposition[9], &log);
 -----------------------------------------------------------------------------------------------------------
 ### 책장 설계 부분 
 
-https://github.com/juhan0910/CollaBot_3D_CAD
+(https://github.com/juhan0910/CollaBot_3D_CAD)
 참고하시면 됩니다. 
 
 
