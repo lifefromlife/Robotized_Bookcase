@@ -16,7 +16,7 @@
 
 
 ### 3. 처음 노트북에 openCR 보드를 세팅
-
+<img width="80%" src="https://user-images.githubusercontent.com/105138423/218001682-4e4eec98-e530-4a6e-9624-e5648a24bcf3.PNG"/>
 아두이노-환경설정 에서 
 (https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json) 복사 붙여넣기로 추가해줍니다. 
 그 다음 board manager에서 openCR 다운 받아주고, Library Manager에서 dynamixel 관련 라이브러리 다운 받아주어야 합니다. 
