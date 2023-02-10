@@ -74,7 +74,7 @@ dxl_wb.setExtendedPositionControlMode(motor[모터 번호], &log);
 여러 함수가 있음. setExtendedPositionControlMode은 1번 이상으로 position 이동이 가능. 
 속도 제어보다 포지션 이동이 정확한 모터 구동이 되서 사용 중.
 ```
-dxl_wb.getPresentPositionData(motor[모터번호], &presentposition[9], &log);
+dxl_wb.getPresentPositionData(motor[모터번호], &presentposition[모터번호], &log);
 ```
 현재 위치를 지정해주는 거. 그래서 처음 서랍 위치를 잘 맞추는게 중요. 열린 상태로 처음 위치를 지정하면 레일하고 벨트 부분 망가집니다.
 
