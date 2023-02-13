@@ -35,7 +35,10 @@ sudo chmod 666 /dev/ttyACM0
 sudo usermod -a -G dialout $USER 
 ```
 후 다시 해주면 해결 됩니다. 
-소프트웨어 문제가 아니라면 하드웨어를 확인해보셔야 합니다.  
+
+그것도 안되면 openCR emanual로 가서 펌웨어 확인.
+
+소프트웨어 문제가 아니라면 하드웨어를 확인해보고 새로운 걸로 바꾸기. 
 
 
 ### 5. 코드 
