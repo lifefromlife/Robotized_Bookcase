@@ -89,6 +89,39 @@ dxl_wb.getPresentPositionData(motor[모터번호], &presentposition[모터번호
 두번째 책장 부분은 이전 프로젝트에서 제 onshape 문서로 작업하여 공유하였습니다. 
 위 github 링크로 올렸으니 참고 바랍니다. 
 
+
+
+
+
+
+
+각 3d 프린터마다 용도는 다음과 같습니다. 
+
+Motor support 430: 430 모터에 결합
+
+(Motor) down support: 540 모터에 결합
+
+GT2 pulley motor 430: GT2라는 벨트에 결합 (모터 430 있는 쪽)
+
+GT2 Clamp: 430 클램프 박는 용도 
+
+Ultrasonic sensor cover: 초음파 센서 커버 (서랍에 붙였던 거))
+
+Ultrasonic sensor stick: 초음파 센서 뒤에서 꽂는 거. 
+
+Shaft Cover: shaft hole 달고 pulley 달고 그 다음 마지막으로 뚜껑으로 덮는 용도 -> 위 아래 서랍 공통
+
+Down shaft 4 hole: 책장 가장 아래 단 듯
+
+GT2 pulley (motor):  540 아래쪽 모터 달 때 씀 
+
+GT2 Pulley: Shaft hole 연결할 때 쓰는 거. 
+
+540하고 430 모터 제어는 동일 (emanual 참고) 
+프로파일 할 때 미리 사각 너트를 딱 맞게 넣고 그 다음 프로파일을 결합할 것
+
+
+
 ------------------------------------------------------------------------------------------------------------
 
 ### 미니어처 책장
