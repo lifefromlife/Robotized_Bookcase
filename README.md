@@ -95,7 +95,7 @@ dxl_wb.getPresentPositionData(motor[모터번호], &presentposition[모터번호
 
 
 
-각 3d 프린터마다 용도는 다음과 같습니다. 
+각 3d 프린터 출력물마다 용도는 다음과 같습니다. 
 
 Motor support 430: 430 모터에 결합
 
